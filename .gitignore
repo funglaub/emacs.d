@@ -1,5 +1,5 @@
 loaddefs.el*
-backups/*
+backups/\!*
 auto-save-list
 custom.el
 *elc
@@ -7,10 +7,6 @@ places
 url/cookies
 thumbs/*
 oddmuse/*
-.newsrc-dribble
-.nnmail-cache
-/#.newsrc-dribble#
-.svn
 .DS_Store
 image-dired/
 elim/
