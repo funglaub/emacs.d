@@ -49,6 +49,9 @@ to your needs.
 To add new packages you wish to have installed automagically when running cask
 (invoked directly or through the Makefile), add a line to `Cask`.
 
+If you wish to add custom lisp libraries, place them in `site-lisp` which is part of
+`autoload-path`.
+
 ## Credits
 
 Heavily inspired by [batsov's Emacs prelude](http://batsov.com/prelude/)
