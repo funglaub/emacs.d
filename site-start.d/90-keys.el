@@ -35,7 +35,6 @@
 (global-set-key (kbd "C-x C-f") 'lusty-file-explorer)
 (global-set-key (kbd "C-x b") 'lusty-buffer-explorer)
 (global-set-key (kbd "C-x C-b") 'ibuffer)
-(global-set-key (kbd "\C-cu") 'reset-ui)
 (global-set-key (kbd "C-c w") 'rename-file-and-buffer)
 
 (global-set-key (kbd "C-c k") 'prelude-kill-other-buffers)
