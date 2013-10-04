@@ -1,7 +1,3 @@
-(require 'smart-mode-line)
-(if after-init-time (sml/setup)
-  (add-hook 'after-init-hook 'sml/setup))
-
 ;; Take from http://rawsyntax.com/blog/learn-emacs-fit-your-workflow/
 ;;default display position/size based on display resolution
 ;;warning: assumption that the 24/22 " displays are oriented
@@ -17,9 +13,8 @@
 ;; Remove splash screen
 (setq inhibit-splash-screen t)
 
-;; Disable the menu bar on Windows and Linux/BSD,
-(if (not (eq system-type 'darwin))
-    (menu-bar-mode -1))
+;; Disable the menu bar
+(menu-bar-mode -1)
 
 (blink-cursor-mode t)
 
@@ -50,3 +45,7 @@
 (when (eq system-type 'darwin)
   (set-face-attribute 'default nil
                       :family "Monaco" :height 140 :weight 'normal))
+
+(require 'smart-mode-line)
+(if after-init-time (sml/setup)
+  (add-hook 'after-init-hook 'sml/setup))

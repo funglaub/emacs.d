@@ -12,7 +12,7 @@
   ;; TODOs etc
   (font-lock-add-keywords
    nil '(("\\<\\(FIX\\|TODO.*\\|FIXME\\|HACK\\|REFACTOR\\IDEE\\):"
-          1 font-lock-warning-face t))))
+          1 font-lock-type-face t))))
 
 (add-hook 'prog-mode-hook 'turn-on-hl-line-mode)
 (add-hook 'prog-mode-hook 'turn-on-save-place-mode)
