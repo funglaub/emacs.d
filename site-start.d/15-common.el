@@ -50,3 +50,5 @@
 
 (set-default 'indent-tabs-mode nil)    ;; Whitespaces instead of tabs
 (set-default 'indicate-empty-lines t)
+
+(setq vc-follow-symlinks nil)
