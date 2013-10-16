@@ -20,6 +20,8 @@
 (depends-on "volatile-highlights")
 (depends-on "guru-mode")
 (depends-on "go-mode")
+(depends-on "go-play")
+(depends-on "go-snippets")
 (depends-on "projectile")
 (depends-on "helm")
 (depends-on "helm-projectile")
