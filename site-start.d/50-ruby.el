@@ -67,7 +67,7 @@
                (indent-line-to arg-indent)))
         (when (> offset 0) (forward-char offset))))))
 
-
+(ad-activate 'ruby-indent-line)
 (global-set-key (kbd "C-c '") 'ruby-tools-to-single-quote-string)
 (global-set-key (kbd "C-c \"") 'ruby-tools-to-double-quote-string)
 (global-set-key (kbd "C-c :") 'ruby-tools-to-symbol)
