@@ -1,8 +1,8 @@
 (setq tab-always-indent nil)
 
 ;; Highlight matching paranthesis
-(show-paren-mode t)
-(setq show-paren-style 'mixed)
+(show-smartparens-global-mode +1)
+
 (column-number-mode t)
 
 ;; Whitespaces instead of tabs

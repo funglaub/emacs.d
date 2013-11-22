@@ -33,6 +33,7 @@
 (depends-on "lusty-explorer")           ; epic ido replacement
 (depends-on "expand-region")
 (depends-on "smart-mode-line")
+(depends-on "smartparens")
 ;; Local Variables:
 ;; mode: emacs-lisp
 ;; End:
