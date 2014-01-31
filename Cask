@@ -34,6 +34,7 @@
 (depends-on "expand-region")
 (depends-on "smart-mode-line")
 (depends-on "smartparens")
+(depends-on "sr-speedbar")
 ;; Local Variables:
 ;; mode: emacs-lisp
 ;; End:
