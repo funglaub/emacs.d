@@ -23,7 +23,8 @@
 
 ;; (setq solarized-termcolors 256)
 ;; (load-theme 'solarized-dark t)
-(load-theme 'sanityinc-tomorrow-night t)
+;; (load-theme 'sanityinc-tomorrow-night t)
+(load-theme 'monokai t)
 
 (when window-system
   (setq frame-title-format '(buffer-file-name "%f" ("%b")))

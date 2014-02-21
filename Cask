@@ -30,6 +30,7 @@
 (depends-on "google-c-style")
 (depends-on "handlebars-sgml-mode")
 (depends-on "color-theme-sanityinc-tomorrow")
+(depends-on "monokai")
 (depends-on "lusty-explorer")           ; epic ido replacement
 (depends-on "expand-region")
 (depends-on "smart-mode-line")
