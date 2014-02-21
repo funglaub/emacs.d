@@ -46,7 +46,3 @@
 (when (eq system-type 'darwin)
   (set-face-attribute 'default nil
                       :family "Monaco" :height 140 :weight 'normal))
-
-(require 'smart-mode-line)
-(if after-init-time (sml/setup)
-  (add-hook 'after-init-hook 'sml/setup))
