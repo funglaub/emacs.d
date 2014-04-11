@@ -52,3 +52,6 @@
 (set-default 'indicate-empty-lines t)
 
 (setq vc-follow-symlinks nil)
+
+(custom-set-variables
+ '(speedbar-show-unknown-files t))
