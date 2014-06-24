@@ -70,3 +70,10 @@ Doesn't mess with special buffers."
   (transpose-lines 1)
   (forward-line -1)
   (indent-according-to-mode))
+
+(defun nxml-pretty-format ()
+    (interactive)
+    (save-excursion
+        (shell-command-on-region (point-min) (point-max) "xmllint --format -" (buffer-name) t)
+        (nxml-mode)
+        (indent-region begin end)))
