@@ -36,7 +36,8 @@
 (require 'rvm)
 (rvm-use-default) ;; use rvm's default ruby for the current Emacs session
 ;; http://emacsblog.org/2007/07/21/package-faves-rcodetools/
-(require 'rcodetools)
+;; (require 'rcodetools)
+;; (define-key ruby-mode-map (kbd "C-c C-c") 'xmp)
 
 ;; Fix ruby-mode indenting. Example:
 ;; class Comment < ActiveRecord::Base
@@ -71,3 +72,7 @@
 (global-set-key (kbd "C-c '") 'ruby-tools-to-single-quote-string)
 (global-set-key (kbd "C-c \"") 'ruby-tools-to-double-quote-string)
 (global-set-key (kbd "C-c :") 'ruby-tools-to-symbol)
+
+
+(setq initial-major-mode 'ruby-mode)
+(setq initial-scratch-message nil)
