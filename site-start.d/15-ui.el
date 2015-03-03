@@ -18,13 +18,24 @@
 
 (blink-cursor-mode t)
 
-;; http://lists.gnu.org/archive/html/emacs-devel/2011-09/msg00350.html
-(setq redisplay-dont-pause t)
+(require 'powerline)
 
-;; (setq solarized-termcolors 256)
-;; (load-theme 'solarized-dark t)
-;; (load-theme 'sanityinc-tomorrow-eighties t)
-(require 'rubytapas-theme)
+;; Moe-theme
+(add-to-list 'custom-theme-load-path "~/.emacs.d/PATH/TO/moe-theme/")
+(add-to-list 'load-path "~/.emacs.d/PATH/TO/moe-theme/")
+(require 'moe-theme)
+
+(setq moe-theme-resize-markdown-title '(1.5 1.4 1.3 1.2 1.0 1.0))
+(setq moe-theme-resize-org-title '(1.5 1.4 1.3 1.2 1.1 1.0 1.0 1.0 1.0))
+(setq moe-theme-resize-rst-title '(1.5 1.4 1.3 1.2 1.1 1.0))
+
+;; Choose a color for mode-line.(Default: blue)
+(moe-theme-set-color 'blue)
+
+;; Finally, apply moe-theme now.
+;; Choose what you like, (moe-light) or (moe-dark)
+(moe-dark)
+(powerline-moe-theme)
 
 (when window-system
   (setq frame-title-format '(buffer-file-name "%f" ("%b")))

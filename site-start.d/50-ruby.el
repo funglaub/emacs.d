@@ -33,8 +33,8 @@
 (add-to-list 'auto-mode-alist '("\\.god$" . ruby-mode))
 
 
-(require 'rvm)
-(rvm-use-default) ;; use rvm's default ruby for the current Emacs session
+;; (require 'rvm)
+;; (rvm-use-default) ;; use rvm's default ruby for the current Emacs session
 ;; http://emacsblog.org/2007/07/21/package-faves-rcodetools/
 ;; (require 'rcodetools)
 ;; (define-key ruby-mode-map (kbd "C-c C-c") 'xmp)

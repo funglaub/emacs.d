@@ -42,4 +42,4 @@
 (global-set-key (kbd "<S-s-up>") 'prelude-move-line-up)
 
 (global-set-key (kbd "C-u") 'er/expand-region)
-(global-set-key (kbd "C-x p") 'sr-speedbar-toggle)
+(global-set-key [f8] 'neotree-toggle)

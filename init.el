@@ -2,7 +2,7 @@
 (setq dotfiles-dir
       (file-name-directory (or (buffer-file-name) load-file-name)))
 
-(require 'cask "~/.cask/cask.el")
+(require 'cask)
 (cask-initialize)
 
 (setq load-path (cons "~/.emacs.d/site-lisp" load-path))
@@ -39,7 +39,6 @@
 (setq confirm-nonexistent-file-or-buffer nil)
 
 (delete-selection-mode t)
-
 
 (when (eq system-type 'darwin)
     (setq ns-right-alternate-modifier nil)

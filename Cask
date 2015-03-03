@@ -1,5 +1,5 @@
-(source "melpa" "http://melpa.milkbox.net/packages/")
-(source "marmalade" "http://marmalade-repo.org/packages/")
+(source gnu)
+(source melpa)
 
 (depends-on "ag")
 (depends-on "idle-highlight-mode")
@@ -16,25 +16,23 @@
 (depends-on "coffee-mode")
 (depends-on "flycheck")
 (depends-on "yasnippet")
-(depends-on "nginx-mode")
 (depends-on "volatile-highlights")
 (depends-on "guru-mode")
-(depends-on "go-mode")
-(depends-on "go-play")
-(depends-on "go-snippets")
-(depends-on "projectile")
 (depends-on "helm")
 (depends-on "helm-projectile")
+(depends-on "projectile")
 (depends-on "grizzl")
 (depends-on "markdown-mode")
 (depends-on "google-c-style")
 (depends-on "handlebars-sgml-mode")
 (depends-on "color-theme-sanityinc-tomorrow")
-(depends-on "monokai-theme")
+(depends-on "moe-theme")
 (depends-on "lusty-explorer")           ; epic ido replacement
 (depends-on "expand-region")
 (depends-on "smartparens")
-(depends-on "sr-speedbar")
+(depends-on "neotree")
+(depends-on "powerline")
+
 ;; Local Variables:
 ;; mode: emacs-lisp
 ;; End:
