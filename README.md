@@ -7,36 +7,30 @@ and [Emacs Redux](http://emacsredux.com/) to get an overview about some cool new
 features in Emacs 24.
 
 Packages are installed from Milkypostman’s Emacs Lisp Package Archive
-([MELPA](http://melpa.milkbox.net )) through [Cask](https://github.com/cask/cask).
+([MELPA](http://melpa.org )) through [Cask](https://github.com/cask/cask).
 
 ## Installation
 
-I provided a Makefile to install cask and all dependencies:
+Install cask
 
 ```
-make install_cask
+brew install cask
 ```
 
 To install all LISP packages from MELPA:
 
 ```
-make install_packages
+cask
 ```
 
 You can update all your dependencies with:
 
 ```
-make update_packages
+cask update
 ```
 
 Alternatively you can use Emacs' built-in package list and upgrade your packages
 there (`M-x list-Packages`).
-
-To speed up starting I recommend byte-compiling all LISP files with:
-
-```
-make compile
-```
 
 ## Customisation
 
