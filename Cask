@@ -27,7 +27,6 @@
 (depends-on "handlebars-sgml-mode")
 (depends-on "color-theme-sanityinc-tomorrow")
 (depends-on "moe-theme")
-(depends-on "lusty-explorer")           ; epic ido replacement
 (depends-on "expand-region")
 (depends-on "smartparens")
 (depends-on "neotree")
