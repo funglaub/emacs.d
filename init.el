@@ -72,6 +72,11 @@
     (if (string= (buffer-file-name) (file-chase-links dotemacs))
         (byte-compile-file dotemacs))))
 
+(setq backup-directory-alist
+      `(("." . ,(expand-file-name
+                 (concat user-emacs-directory "backups")))))
+
+
 (add-hook 'after-save-hook 'autocompile)
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
