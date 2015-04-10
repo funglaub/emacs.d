@@ -32,12 +32,10 @@
 
 (global-set-key (kbd "C-c o") 'occur)
 
-(global-set-key (kbd "C-x C-f") 'helm-find-files)
-(global-set-key (kbd "C-x b") 'helm-mini)
+(global-set-key (kbd "C-x C-f") 'lusty-file-explorer)
+(global-set-key (kbd "C-x b") 'lusty-buffer-explorer)
 (global-set-key (kbd "C-x C-b") 'ibuffer)
 (global-set-key (kbd "C-c w") 'rename-file-and-buffer)
-
-(global-set-key (kbd "C-h f") 'helm-apropos)
 
 (global-set-key (kbd "C-c k") 'prelude-kill-other-buffers)
 (global-set-key (kbd "<S-s-down>") 'prelude-move-line-down)
