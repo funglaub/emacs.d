@@ -13,15 +13,6 @@
 (setq-default fill-column 80)
 (turn-on-auto-fill)
 
-;; Display an indicator at 80 chars position
-;; (require 'fill-column-indicator)
-;; (define-globalized-minor-mode global-fci-mode fci-mode
-;;   (lambda ()
-;;     (fci-mode t)
-;;     (setq fci-rule-width 1)
-;;     (setq fci-rule-color "#268bd2")))
-;; (global-fci-mode t)
-
 (autoload 'whitespace-toggle-options "whitespace"
   "Toggle local `whitespace-mode' options." t)
 
