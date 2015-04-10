@@ -32,6 +32,7 @@
 (depends-on "smartparens")
 (depends-on "neotree")
 (depends-on "powerline")
+(depends-on "emmet-mode")
 
 ;; Local Variables:
 ;; mode: emacs-lisp
