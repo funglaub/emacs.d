@@ -33,7 +33,7 @@
 (global-set-key (kbd "C-c o") 'occur)
 
 (global-set-key (kbd "C-x C-f") 'lusty-file-explorer)
-(global-set-key (kbd "C-x b") 'lusty-buffer-explorer)
+(global-set-key (kbd "C-x b") 'helm-mini)
 (global-set-key (kbd "C-x C-b") 'ibuffer)
 (global-set-key (kbd "C-c w") 'rename-file-and-buffer)
 
