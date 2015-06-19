@@ -24,14 +24,13 @@
 (depends-on "grizzl")
 (depends-on "markdown-mode")
 (depends-on "google-c-style")
-(depends-on "handlebars-sgml-mode")
+(depends-on "web-mode")
 (depends-on "color-theme-sanityinc-tomorrow")
 (depends-on "moe-theme")
 (depends-on "lusty-explorer")           ; epic ido replacement
 (depends-on "expand-region")
 (depends-on "smartparens")
 (depends-on "neotree")
-(depends-on "powerline")
 (depends-on "emmet-mode")
 
 ;; Local Variables:
